@@ -1,4 +1,3 @@
-import React from 'react';
 import ParticleBackground from './components/ParticleBackground';
 import Hero from './sections/Hero';
 import Timeline from './sections/Timeline';

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
-import { MapPin, Landmark, Plane, Smartphone, Building, Building2, ChevronRight } from 'lucide-react';
+import { Landmark, Plane, Smartphone, Building, Building2, ChevronRight } from 'lucide-react';
 
 const locations = [
   { id: 'banking', name: 'Banking', x: '20%', y: '40%', icon: Landmark, title: 'Identity Verification', desc: 'Secure high-value transactions and remote onboarding using facial recognition and voice biometrics.', color: 'text-primary' },

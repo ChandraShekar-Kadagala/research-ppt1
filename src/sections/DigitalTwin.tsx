@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
-import { User, Activity, Cloud, BrainCircuit, RotateCw, HeartPulse, ShieldCheck, Factory, Building2 } from 'lucide-react';
+import { User, Activity, Cloud, BrainCircuit, HeartPulse, ShieldCheck, Factory, Building2 } from 'lucide-react';
 
 const DigitalTwin: React.FC = () => {
   const dragX = useMotionValue(0);

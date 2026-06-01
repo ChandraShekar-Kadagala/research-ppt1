@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
 import { BrainCircuit, Fingerprint, Database, ShieldCheck, Clock, BookOpen, HelpCircle, Activity } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 

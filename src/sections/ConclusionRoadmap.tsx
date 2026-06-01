@@ -41,7 +41,7 @@ const ConclusionRoadmap: React.FC = () => {
           <div className="absolute top-1/2 left-0 right-0 h-1 bg-surfaceBorder -translate-y-1/2 hidden md:block z-0" />
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 relative z-10">
-            {roadmapItems.map((item, index) => (
+            {roadmapItems.map((item) => (
               <div key={item.week} className="flex flex-col items-center group">
                 <motion.div 
                   whileHover={{ scale: 1.1 }}

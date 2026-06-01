@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
-import { Brain, ScanFace, LineChart, Network, CheckCircle2, Clock, ShieldAlert, Cpu } from 'lucide-react';
+import { Brain, ScanFace, LineChart, Network, CheckCircle2, Clock, ShieldAlert, Cpu, RotateCw } from 'lucide-react';
 
 const branches = [
   { title: 'Face Recognition', icon: ScanFace, angle: -45, color: 'text-primary' },

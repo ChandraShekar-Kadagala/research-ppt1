@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
-import { Calendar, ChevronRight } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 const timelineData = [
   { day: 1, title: 'Biometrics', desc: 'Understanding modalities like face, iris, and fingerprint.', learnings: 'Analyzed false acceptance/rejection rates.' },
@@ -29,7 +29,7 @@ const Timeline: React.FC = () => {
         <div className="absolute top-1/2 left-0 right-0 h-1 bg-surfaceBorder -translate-y-1/2 hidden lg:block z-0" />
         
         <div className="flex flex-col lg:flex-row justify-between items-center relative z-10 gap-8 lg:gap-0">
-          {timelineData.map((item, index) => (
+          {timelineData.map((item) => (
             <div 
               key={item.day}
               className="relative group w-full lg:w-auto flex flex-col items-center"

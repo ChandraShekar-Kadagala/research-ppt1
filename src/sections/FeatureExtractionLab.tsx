@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
-import { Fingerprint, ScanFace, Eye, ArrowRight, Scan, Code, Database, Crosshair } from 'lucide-react';
+import { Fingerprint, ScanFace, Eye, Scan, Code, Database, Crosshair } from 'lucide-react';
 
 const modalities = [
   { id: 'finger', name: 'Fingerprint', icon: Fingerprint, color: 'text-secondary' },
